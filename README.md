@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Frontend Mentor](https://your-solution-url.com)
--   Live Site URL: [Netlify](https://your-live-site-url.com)
+-   Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-9xQ3pHJ7Wk)
+-   Live Site URL: [Netlify](https://mellifluous-stardust-ebeb68.netlify.app/)
 
 ## My process
 
