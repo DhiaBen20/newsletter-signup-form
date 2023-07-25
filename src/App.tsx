@@ -6,11 +6,11 @@ function App() {
     const { isSubmitted, isDismissed } = useNewsletterContext();
 
     return (
-        <div className="text-[hsl(235,18%,26%)] md:bg-[#36384D] md:min-h-screen md:flex md:items-center md:justify-center">
+        <main className="text-[hsl(235,18%,26%)] md:bg-[#36384D] md:min-h-screen md:flex md:items-center md:justify-center">
             {(!isSubmitted || isDismissed) && <Signup />}
 
             {isSubmitted && !isDismissed && <ThankYou />}
-        </div>
+        </main>
     );
 }
 
