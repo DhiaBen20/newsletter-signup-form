@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .illustration {
+        background-image: url("./assets/illustration-sign-up-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @media screen(md) {
+        .illustration {
+            background-image: url("./assets/illustration-sign-up-desktop.svg");
+        }
+    }
+}
