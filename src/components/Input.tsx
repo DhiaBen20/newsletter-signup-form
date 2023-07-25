@@ -1,9 +1,9 @@
 import { ComponentPropsWithoutRef, forwardRef } from "react";
 
 const defaultClasses =
-    "rounded-md border px-6 py-4 focus:outline-none focus:ring ring-offset-2";
+    "rounded-md border hover:border-[hsl(234,29%,20%)] px-6 py-4 focus:outline-none focus:ring ring-offset-2";
 const errorClasses =
-    "border-[hsl(4,100%,67%)] bg-[hsl(4,100%,67%)]/20 text-[hsl(4,100%,67%)]";
+    "border-[hsl(4,100%,67%)] hover:border-[hsl(4,100%,67%)] bg-[hsl(4,100%,67%)]/20 text-[hsl(4,100%,67%)]";
 
 interface InputProps extends ComponentPropsWithoutRef<"input"> {
     isError?: boolean;
